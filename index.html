@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Financial Platform</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            animation: fadeIn 2s;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .feature {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            width: 300px;
+            display: inline-block;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .feature:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            .feature {
+                width: 90%;
+            }
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log("Blockchain Financial Platform Loaded");
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Blockchain Financial Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#payment">Payment</a></li>
+                <li><a href="#banking">Banking</a></li>
+                <li><a href="#transactions">Transactions</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="features">
+        <h2>Key Features</h2>
+        <div class="feature">
+            <h3>Tamper-Proof Transactions</h3>
+            <p>Utilizing blockchain technology to ensure all transactions are secure and immutable.</p>
+        </div>
+        <div class="feature">
+            <h3>Smart Contracts</h3>
+            <p>Automated contracts that execute when conditions are met, reducing fraud.</p>
+        </div>
+        <div class="feature">
+            <h3>Decentralized Ledger</h3>
+            <p>A transparent ledger that is accessible to all participants, enhancing trust.</p>
+        </div>
+        <div class="feature">
+            <h3>End-to-End Encryption</h3>
+            <p>Ensuring that all data is encrypted and secure from unauthorized access.</p>
+        </div>
+        <div class="feature">
+            <h3>Mobile Crypto Wallets</h3>
+            <p>Easy access to your funds anytime, anywhere with our mobile wallet solution.</p>
+        </div>
+        <div class="feature">
+            <h3>Micro-Lending Services</h3>
+            <p>Providing small loans to underserved communities to promote financial inclusion.</p>
+        </div>
+        <div class="feature">
+            <h3>Offline Payment System</h3>
+            <p>Integration of QR codes for offline transactions, making payments accessible to everyone.</p>
+        </div>
+        <div class="feature">
+            <h3>Multi-Language Support</h3>
+            <p>Our platform supports multiple languages to cater to a diverse user base.</p>
+        </div>
+        <div class="feature">
+            <h3>Tokenized Incentives</h3>
+            <p>Encouraging user engagement through token rewards for transactions and referrals.</p>
+        </div>
+    </section>
+
+    <section id="payment">
+        <h2>Payment Solutions</h2>
+        <p>Our platform offers a seamless payment experience with the following features:</p>
+        <ul>
+            <li>Instant Transfers</li>
+            <li>Low Transaction Fees</li>
+            <li>Secure Payment Gateway</li>
+            <li>Transaction History Tracking</li>
+        </ul>
+        <img src="https://source.unsplash.com/featured/?payment" alt="Payment Solutions" style="width: 100%; max-width: 600px; border-radius: 10px;">
+    </section>
+
+    <section id="banking">
+        <h2>Banking Services</h2>
+        <p>Manage your finances with our comprehensive banking services:</p>
+        <ul>
+            <li>Account Management</li>
+            <li>Loan Applications</li>
+            <li>Investment Opportunities</li>
+            <li>Financial Planning Tools</li>
+        </ul>
+        <img src="https://source.unsplash.com/featured/?banking" alt="Banking Services" style="width: 100%; max-width: 600px; border-radius: 10px;">
+    </section>
+
+    <section id="transactions">
+        <h2>Transaction Management</h2>
+        <p>Keep track of your transactions effortlessly:</p>
+        <ul>
+            <li>Real-Time Transaction Updates</li>
+            <li>Detailed Transaction Reports</li>
+            <li>Fraud Detection Alerts</li>
+            <li>Easy Dispute Resolution</li>
+        </ul>
+        <img src="https://source.unsplash.com/featured/?transactions" alt="Transaction Management" style="width: 100%; max-width: 600px; border-radius: 10px;">
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need support, feel free to reach out:</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Blockchain Financial Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
